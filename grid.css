@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+
+    grid-template-rows: 80px 1fr 80px; 
+    grid-template-columns: 1fr 220px;
+
+}
+
+header {
+    font-size: 22px;
+    grid-area: header;
+    background: linear-gradient(120deg, rgb(59, 59, 59), rgb(245, 229, 4))
+    
+}
+
+main {
+    grid-area: main;
+    background: radial-gradient(rgb(17, 19, 17), rgb(78, 78, 74), rgb(228, 228, 228))
+    
+}
+
+aside {
+    font-size: 22px;
+    grid-area: aside;
+    background: linear-gradient(120deg, rgb(6, 97, 124), rgb(157, 157, 165))
+}
+
+footer{
+    font-size: 22px;
+    grid-area: footer;
+    background: linear-gradient(120deg, rgb(76, 227, 12), rgb(20, 15, 159))
+    
+}
+p {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;    
+    font-family: 'Lato', sans-serif;
+}
