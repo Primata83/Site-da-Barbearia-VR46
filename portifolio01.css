@@ -1,0 +1,28 @@
+#cranio{
+    font-size: 32px;
+    color: rgb(146, 141, 0);
+    margin-top: 26px;
+    text-align:center ;
+}
+
+#subcranio{
+    font-size: 20px;
+    text-align:center ;
+    
+}
+
+.imgjoao{
+    height: 300px;
+    margin-top: 10rem;
+    margin-left: 80px;
+    float: left;
+    margin-right: 5rem;
+
+
+}
+
+.joao{
+    margin-top: 17rem;
+    font-size: 18px;
+    margin-left: 80px;
+}
