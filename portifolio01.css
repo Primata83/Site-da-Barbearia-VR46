@@ -1,7 +1,7 @@
 #cranio{
-    font-size: 32px;
-    color: rgb(146, 141, 0);
-    margin-top: 26px;
+    font-size: 44px;
+    color: rgb(206, 199, 2);
+    margin-top: 34px;
     text-align:center ;
 }
 
@@ -14,15 +14,34 @@
 .imgjoao{
     height: 300px;
     margin-top: 10rem;
-    margin-left: 80px;
+    margin-left: 120px;
     float: left;
-    margin-right: 5rem;
-
-
+    margin-right: 6rem;
+    
 }
 
 .joao{
     margin-top: 17rem;
     font-size: 18px;
     margin-left: 80px;
+}
+
+.imghead{
+    height: 330px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 10rem;
+}
+
+.head{
+    margin-right: 84px;
+    margin-top: 24rem;
+    font-size: 18px;
+    float: right;
+}
+
+body{
+    background-color: rgb(129, 129, 129);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
