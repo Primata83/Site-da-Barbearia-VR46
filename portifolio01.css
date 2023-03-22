@@ -2,7 +2,8 @@
     font-size: 44px;
     color: rgb(206, 199, 2);
     margin-top: 34px;
-    text-align:center ;
+    text-align: center ;
+    font-family: Eurostile Becker Discaps Bold Regular, sans-serif;
 }
 
 #subcranio{
@@ -23,7 +24,7 @@
 .joao{
     margin-top: 17rem;
     font-size: 18px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .imghead{
@@ -34,10 +35,14 @@
 }
 
 .head{
-    margin-right: 84px;
+    margin-left: 36rem;
     margin-top: 24rem;
+    text-align: right;
     font-size: 18px;
-    float: right;
+    float: left;
+    margin-top: 13rem;
+   
+   
 }
 
 body{
@@ -45,3 +50,10 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
+
+
+      
+
+
+
+  
