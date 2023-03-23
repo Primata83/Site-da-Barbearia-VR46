@@ -1,6 +1,6 @@
 #cranio{
     font-size: 44px;
-    color: rgb(206, 199, 2);
+    color: rgb(191, 219, 9);
     margin-top: 34px;
     text-align: center ;
     font-family: Eurostile Becker Discaps Bold Regular, sans-serif;
@@ -29,30 +29,33 @@
 
 .imghead{
     height: 330px;
+    margin: 10rem 120px 10rem 0;
+    
     float: right;
-    margin-right: 120px;
-    margin-top: 10rem;
+    margin-left: 6rem;
+   
 }
 
 .head{
-    margin-left: 36rem;
-    margin-top: 24rem;
     text-align: right;
     font-size: 18px;
-    float: left;
-    margin-top: 13rem;
-   
-   
+    margin-top: 17%;
+
 }
+
 
 body{
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(145, 145, 145);
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+
 }
 
-
-      
+#rodape{
+    
+    margin-top: 18%;
+    text-align: center;
+}
 
 
 
