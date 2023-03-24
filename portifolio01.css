@@ -3,7 +3,9 @@
     color: rgb(191, 219, 9);
     margin-top: 34px;
     text-align: center ;
-    font-family: Eurostile Becker Discaps Bold Regular, sans-serif;
+    font-family: 'Michroma', sans-serif;
+    font-weight: bold;
+   
 }
 
 #subcranio{
@@ -11,6 +13,7 @@
     text-align:center ;
     font-weight: bold;
     color: rgb(6, 6, 190);
+    font-family: 'Source Sans Pro', sans-serif;
     
 }
 
@@ -58,8 +61,9 @@
 
 body{
     background-color: rgb(145, 145, 145);
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 
