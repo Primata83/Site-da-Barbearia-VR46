@@ -5,6 +5,7 @@
     text-align: center ;
     font-family: 'Michroma', sans-serif;
     font-weight: bold;
+    letter-spacing: 2px;
    
 }
 
@@ -12,8 +13,9 @@
     font-size: 21px;
     text-align:center ;
     font-weight: bold;
-    color: rgb(6, 6, 190);
+    color: rgb(98, 98, 98);
     font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
     
 }
 
@@ -60,18 +62,20 @@
 
 
 body{
-    background-color: rgb(145, 145, 145);
     font-weight: 500;
     line-height: 1.5;
     font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient(100deg, rgb(133, 225, 94), rgb(27, 23, 149))
 
 }
 
 #rodape{
+    color: #272727;
     text-align: center;
     margin-top: 21rem;
     padding: 18px;
     border-top: 2px solid #a9db2c
+    
     
     
 }
