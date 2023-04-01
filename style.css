@@ -1,143 +1,115 @@
-#cranio{
-    font-size: 44px;
-    color: rgb(207, 231, 53);
-    margin-top: 34px;
-    text-align: center ;
-    font-family: 'Michroma', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-#subcranio{
-    font-size: 21px;
-    text-align: center ;
-    font-weight: bold;
-    color: rgb(98, 98, 98);
-    font-family: 'Source Sans Pro', sans-serif;
-    letter-spacing: 1px;
-}
-
-.imgjoao{
-    height: 270px;
-  
-    margin-left: 120px;
-    float: left;
-    margin-right: 6rem;
-}
-
-@media (max-width: 570px) {
-.imgjoao {
-    height: 200px;
-    margin-top: 0rem;
-    margin-left: 2rem;
-    float: none;
-    margin-right: none;
-}
-}
-
-.joao{
-    margin-top: 17rem;
-    font-size: 18px;
-    text-align: center;
-}
-
-@media (max-width: 570px) {
-.joao {
-    text-align: center;
-    margin-top: 0rem;
-    font-size: 18px;
-    margin-left: 0rem;
-}
-}
-
-.imghead{
-    height: 330px;
-    
-    float: right;
-    margin-right: 8rem;
-}
-
-@media (max-width: 570px) {
-.imghead {
-    height: 250px;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    float: none;
-    margin-right: none;
-}
-}
-
-.head{
-    text-align: center;
-    margin-top: 17rem;
-    font-size: 18px;
-    
-    
-}
-
-@media (max-width: 570px) {
-.head {
-    text-align: center;
-    margin-top: 0rem;
-    font-size: 18px;
-   
-}
-}
-
-.imgwesley{
-    height: 350px;
-    
-    margin-left: 120px;
-    float: left;
-}
-
-@media (max-width: 570px) {
-.imgwesley {
-    margin-top: 5rem;
-    height: 260px;
-    margin-left: 3rem;
-    float: none;
-    margin-right: none;
-}
-}
-
-.wesley{
-    margin-top: 20rem;
-    font-size: 18px;
-    text-align: center;
-    
-    
-}
-
-@media (max-width: 570px) {
-.wesley {
-    margin-left: 1rem;
-    margin-top: 0rem;
-    font-size: 18px;
-    text-align: center;
-  
-}
-}
-
-body{
-    max-width: 100%;
-    font-weight: 500;
-    line-height: 1.5;
-    font-family: 'Source Sans Pro', sans-serif;
-    background: linear-gradient(100deg, rgb(133, 225, 94), rgb(27, 23, 149))
-
-}
-
-@media (max-width: 570px) {
 body {
-    max-width: 100%;
-    background: linear-gradient(100deg, rgb(133, 225, 94), rgb(27, 23, 149)) 
-}
-}
-
-#rodape{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    background: linear-gradient(100deg, rgb(133, 225, 94), rgb(27, 23, 149))
+  }
+  
+  header {
+    background-color: #292929;
     text-align: center;
-    margin-top: 30rem;
+    font-size: 2em;
+    padding: 1em;
+    font-family: 'Michroma', sans-serif;
+    color: rgb(204, 235, 4);
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  #subcranio {
+    color: #2d2e2e;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0.4em;
+    color: rgb(31, 31, 30);
+    background-color: #b5f006;
+  }
+  
+  .joaoflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  .headflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  .wesleyflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+
+  #rodape{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2em;
     padding: 1rem;
-    border-top: 2px solid #a9db2c
-}
+    border-top: 2px solid #c4f002
+  }
+  
+  /* Estilos para telas ACIMA de 570px */
+  
+  @media (min-width: 570px) {
+
+   .joaoflex, .headflex, .wesleyflex {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    .imgjoao, .imghead, .imgwesley {
+      width: 30%;
+      height: auto;
+    }
+  
+    .joao, .head, .wesley {
+      width: 60%;
+      font-size: 1.2em;
+    }
+  
+  }
+  
+  /* Estilos para telas ABAIXO de 570px */
+  
+  @media (max-width: 570px) {
+  
+    .joaoflex, .headflex, .wesleyflex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .imgjoao, .imghead, .imgwesley {
+      width: 70%;
+      height: auto;
+    }
+  
+    .joao, .head, .wesley {
+      width: 80%;
+      font-size: 1em;
+      text-align: center;
+      margin-top: 1em;
+    }
+  
+    #rodape {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 2em;
+      padding: 1rem;
+      border-top: 2px solid #a9db2c
+    }
+  
+  }
+  
