@@ -1,5 +1,6 @@
  Portifolio 01
- https://primata83.github.io/Rocketseat/
+ 
+ https://primata83.github.io/PORTIFOLIO/
 
 ### Iow 👋
 
