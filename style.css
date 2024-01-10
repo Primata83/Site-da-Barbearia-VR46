@@ -59,7 +59,7 @@ body {
     border-top: 2px solid #c4f002
   }
   
-  /* Estilos para telas ACIMA de 570px */
+  /* Estilos e proporções para telas ACIMA de 570px */
   
   @media (min-width: 570px) {
 
@@ -81,7 +81,7 @@ body {
   
   }
   
-  /* Estilos para telas ABAIXO de 570px */
+  /* Estilos e proporções para telas ABAIXO de 570px */
   
   @media (max-width: 570px) {
   
